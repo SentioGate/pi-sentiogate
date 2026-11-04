@@ -1,0 +1,43 @@
+{
+  "name": "@sentiogate/pi-provider",
+  "version": "0.1.0",
+  "description": "SentioGate provider for the Pi coding agent: route Pi through an OpenAI-compatible LLM router with zero markup on your own keys.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "SentioGate <187725357+HISHAMJOTTERREV@users.noreply.github.com>",
+  "homepage": "https://github.com/SentioGate/pi-sentiogate#readme",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "sentiogate",
+    "llm-router",
+    "openai-compatible",
+    "byok"
+  ],
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/sentiogate.js"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SentioGate/pi-sentiogate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SentioGate/pi-sentiogate/issues"
+  }
+}
