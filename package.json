@@ -1,6 +1,6 @@
 {
   "name": "@sentiogate/pi-provider",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SentioGate provider for the Pi coding agent: route Pi through an OpenAI-compatible LLM router with zero markup on your own keys.",
   "type": "module",
   "license": "Apache-2.0",
