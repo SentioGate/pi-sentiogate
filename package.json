@@ -20,6 +20,9 @@
     "LICENSE",
     "CHANGELOG.md"
   ],
+  "scripts": {
+    "test": "node --input-type=module -e 'import(\"./extensions/sentiogate.js\")'"
+  },
   "pi": {
     "extensions": [
       "./extensions/sentiogate.js"
